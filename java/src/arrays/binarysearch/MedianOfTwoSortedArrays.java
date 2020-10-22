@@ -1,7 +1,5 @@
 package arrays.binarysearch;
 
-import java.util.*;
-
 
 //PROBLEM
 /*
