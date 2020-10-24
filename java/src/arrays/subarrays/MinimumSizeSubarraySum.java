@@ -62,14 +62,10 @@ public class MinimumSizeSubarraySum {
 
 //APPROACH
 /*
-nums1(x) = {1,3,8,9,15}
-nums2(y) = {7,11,18,9,21,25}
-
-Partition both arrays into left & right such that maxLeftX >= minRightY && maxLeftY >= minRightY).
-Reference Array should be the smaller array i.e x in our case.
-
-if m+n is odd, median = Max(maxLeftX, maxLeftY))
-if m+n is even, median = Average(Max(maxLeftX, maxLeftY), Min(minRightX, minRightY)
+nums = [2,3,1,2,4,3]
+Take two pointers i & j.
+Move i till we hit sum>=s condition and keep j at start.
+Once condition hit start removing one element from left and add on right
 */
 
     public int minSubArrayLenTwoPointer(int s, int[] nums) {
