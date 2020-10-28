@@ -98,9 +98,5 @@ public class CombinationSum {
 //            System.out.println("$$$$$$$$$$$$");
             backTrack(cache, candidates, i-1, tmp, r1);
         }
-
-        List<Integer> l = new ArrayList<>();
-
-        l.stream().mapToInt(Integer::intValue).toArray();
     }
 }
