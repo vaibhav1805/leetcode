@@ -2,6 +2,9 @@ package graphs.trees;
 
 import bst.utils.TreeNode;
 
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -24,7 +27,7 @@ import java.util.Stack;
  *
  * https://leetcode.com/problems/construct-binary-tree-from-string/
  */
-public class ConstructBSTFromString {
+public class ConstructBinaryTreeFromString {
     public TreeNode helper(String s){
         int rIdx = s.indexOf('(');
         TreeNode node = null;
