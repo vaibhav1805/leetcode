@@ -1,10 +1,6 @@
 package graphs.trees;
 
 import bst.utils.TreeNode;
-
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
 
 /**
